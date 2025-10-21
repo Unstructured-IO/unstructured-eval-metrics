@@ -1,0 +1,45 @@
+﻿--------------------------------------------------- Unstructured Plain Text Format 1
+
+
+--------------------------------------------------- Unstructured Table Begin
+Three Months Ended Six Months Ended
+July 30, 2023 April 30, 2023 July 31, 2022 July 30, 2023 July 31, 2022
+Diluted net income per share
+GAAP $ 2.48 $ 0.82 $ 0.26 $ 3.30 $ 0.90
+Non-GAAP $ 2.70 $ 1.09 $ 0.51 $ 3.79 $ 1.87
+
+
+Weighted average shares used in diluted net income per share computation 2,499 2,490 2,516 2,495 2,527
+
+
+GAAP net cash provided by operating activities $ 6,348 $ 2,911 $ 1,271 $ 9,259 $ 3,001
+Purchases related to property and equipment and intangible assets (289) (248) (432) (537) (794)
+Principal payments on property and equipment and intangible assets (11) (20) (15) (31) (36)
+Free cash flow $ 6,048 $ 2,643 $ 824 $ 8,691 $ 2,171
+--------------------------------------------------- Unstructured Table End
+
+
+(A) Acquisition-related and other costs are comprised of amortization of intangible assets, transaction costs, and certain compensation charges and are included in the following line items:
+--------------------------------------------------- Unstructured Table Begin
+Three Months Ended Six Months Ended
+July 30, 2023 April 30, 2023 July 31, 2022 July 30, 2023 July 31, 2022
+Cost of revenue $ 119 $ 119 $ 121 $ 239 $ 214
+Research and development $ 12 $ 12 $ 10 $ 24 $ 19
+Sales, general and administrative $ 6 $ 42 $ 44 $ 48 $ 91
+--------------------------------------------------- Unstructured Table End
+
+
+(B) Stock-based compensation consists of the following:
+--------------------------------------------------- Unstructured Table Begin
+Three Months Ended Six Months Ended
+July 30, 2023 April 30, 2023 July 31, 2022 July 30, 2023 July 31, 2022
+Cost of revenue $ 31 $ 27 $ 38 $ 58 $ 76
+Research and development $ 600 $ 524 $ 452 $ 1,124 $ 836
+Sales, general and administrative $ 211 $ 184 $ 159 $ 394 $ 315
+--------------------------------------------------- Unstructured Table End
+
+
+(C) Other consists of assets held for sale related adjustments.
+
+
+(D) Income tax impact of non-GAAP adjustments, including the recognition of excess tax benefits or deficiencies related to stock-based compensation under GAAP accounting standard (ASU 2016-09).
