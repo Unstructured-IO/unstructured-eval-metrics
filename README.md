@@ -148,7 +148,6 @@ These metrics assess the system's ability to capture the organizational structur
 | Metric | Context |
 | :---- | :---- |
 | **Element Alignment**(F1-based) | Measures how well predicted elements align with ground truth. It is largely a **reality-grounded metric** that captures how systems map heterogeneous labels into a coherent hierarchy. |
-| **Element Consistency**(F1-based) | Evaluates whether the system assigns consistent labels to functionally similar elements across the document using a Confusion Matrix framework. Element labels ("title," "sub-heading") are mapped to **functional categories** ("TITLE") for a semantic-level comparison. |
 
 ### Table Structure and Content Metrics
 
