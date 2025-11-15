@@ -1,0 +1,113 @@
+[
+    {
+        "type": "UncategorizedText",
+        "element_id": "c77da46c5e8c4e1f9760bf6ad170ce74",
+        "text": "",
+        "metadata": {
+            "category_depth": 0,
+            "page_number": 1,
+            "text_as_html": "<div class=\"Page\" data-page-number=\"1\" />",
+            "languages": [
+                "eng"
+            ],
+            "filetype": "text/html",
+            "partitioner_type": "vlm_partition"
+        }
+    },
+    {
+        "type": "Table",
+        "element_id": "db1ccf6bb388482b9a8c433f13a7fb7b",
+        "text": "Three Months Ended Six Months Ended July 30, 2023 April 30, 2023 July 31, 2022 July 30, 2023 July 31, 2022 Diluted net income per share GAAP $    2.48 $    0.82 $    0.26 $    3.30 $    0.90 Non-GAAP $    2.70 $    1.09 $    0.51 $    3.79 $    1.87 Weighted average shares used in diluted net income per share computation 2,499 2,490 2,516 2,495 2,527 GAAP net cash provided by operating activities $    6,348 $    2,911 $    1,271 $    9,259 $    3,001 Purchases related to property and equipment and intangible assets (289) (248) (432) (537) (794) Principal payments on property and equipment and intangible assets (11) (20) (15) (31) (36) Free cash flow $    6,048 $    2,643 $    824 $    8,691 $    2,171",
+        "metadata": {
+            "category_depth": 1,
+            "page_number": 1,
+            "parent_id": "c77da46c5e8c4e1f9760bf6ad170ce74",
+            "text_as_html": "<table class=\"Table\"><thead><tr><th></th><th colspan=\"3\">Three Months Ended</th><th colspan=\"2\">Six Months Ended</th></tr><tr><th></th><th>July 30, 2023</th><th>April 30, 2023</th><th>July 31, 2022</th><th>July 30, 2023</th><th>July 31, 2022</th></tr></thead><tbody><tr><td>Diluted net income per share</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>GAAP</td><td>$    2.48</td><td>$    0.82</td><td>$    0.26</td><td>$    3.30</td><td>$    0.90</td></tr><tr><td>Non-GAAP</td><td>$    2.70</td><td>$    1.09</td><td>$    0.51</td><td>$    3.79</td><td>$    1.87</td></tr><tr><td>Weighted average shares used in diluted net income per share computation</td><td>2,499</td><td>2,490</td><td>2,516</td><td>2,495</td><td>2,527</td></tr><tr><td>GAAP net cash provided by operating activities</td><td>$    6,348</td><td>$    2,911</td><td>$    1,271</td><td>$    9,259</td><td>$    3,001</td></tr><tr><td>Purchases related to property and equipment and intangible assets</td><td>(289)</td><td>(248)</td><td>(432)</td><td>(537)</td><td>(794)</td></tr><tr><td>Principal payments on property and equipment and intangible assets</td><td>(11)</td><td>(20)</td><td>(15)</td><td>(31)</td><td>(36)</td></tr><tr><td>Free cash flow</td><td>$    6,048</td><td>$    2,643</td><td>$    824</td><td>$    8,691</td><td>$    2,171</td></tr></tbody></table>",
+            "languages": [
+                "eng"
+            ],
+            "filetype": "text/html",
+            "partitioner_type": "vlm_partition"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "ef79bf5b458e40dfaa25a5aecc4e359b",
+        "text": "(A) Acquisition-related and other costs are comprised of amortization of intangible assets, transaction costs, and certain compensation charges and are included in the following line items:",
+        "metadata": {
+            "category_depth": 1,
+            "page_number": 1,
+            "parent_id": "c77da46c5e8c4e1f9760bf6ad170ce74",
+            "text_as_html": "<p class=\"NarrativeText\">(A) Acquisition-related and other costs are comprised of amortization of intangible assets, transaction costs, and certain compensation charges and are included in the following line items:</p>",
+            "languages": [
+                "eng"
+            ],
+            "filetype": "text/html",
+            "partitioner_type": "vlm_partition"
+        }
+    },
+    {
+        "type": "Table",
+        "element_id": "4d0b8e4f19914a4f980eaf9283c7db22",
+        "text": "Three Months Ended Six Months Ended July 30, 2023 April 30, 2023 July 31, 2022 July 30, 2023 July 31, 2022 Cost of revenue $    119 $    119 $    121 $    239 $    214 Research and development $    12 $    12 $    10 $    24 $    19 Sales, general and administrative $    6 $    42 $    44 $    48 $    91",
+        "metadata": {
+            "category_depth": 1,
+            "page_number": 1,
+            "parent_id": "c77da46c5e8c4e1f9760bf6ad170ce74",
+            "text_as_html": "<table class=\"Table\"><thead><tr><th></th><th colspan=\"3\">Three Months Ended</th><th colspan=\"2\">Six Months Ended</th></tr><tr><th></th><th>July 30, 2023</th><th>April 30, 2023</th><th>July 31, 2022</th><th>July 30, 2023</th><th>July 31, 2022</th></tr></thead><tbody><tr><td>Cost of revenue</td><td>$    119</td><td>$    119</td><td>$    121</td><td>$    239</td><td>$    214</td></tr><tr><td>Research and development</td><td>$    12</td><td>$    12</td><td>$    10</td><td>$    24</td><td>$    19</td></tr><tr><td>Sales, general and administrative</td><td>$    6</td><td>$    42</td><td>$    44</td><td>$    48</td><td>$    91</td></tr></tbody></table>",
+            "languages": [
+                "eng"
+            ],
+            "filetype": "text/html",
+            "partitioner_type": "vlm_partition"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "14ca222b5ab445a681871fa92c324ce2",
+        "text": "(B) Stock-based compensation consists of the following:",
+        "metadata": {
+            "category_depth": 1,
+            "page_number": 1,
+            "parent_id": "c77da46c5e8c4e1f9760bf6ad170ce74",
+            "text_as_html": "<p class=\"NarrativeText\">(B) Stock-based compensation consists of the following:</p>",
+            "languages": [
+                "eng"
+            ],
+            "filetype": "text/html",
+            "partitioner_type": "vlm_partition"
+        }
+    },
+    {
+        "type": "Table",
+        "element_id": "62f88c757d184804b91442c13310d85d",
+        "text": "Three Months Ended Six Months Ended July 30, 2023 April 30, 2023 July 31, 2022 July 30, 2023 July 31, 2022 Cost of revenue $    31 $    27 $    38 $    58 $    76 Research and development $    600 $    524 $    452 $    1,124 $    836 Sales, general and administrative $    211 $    184 $    159 $    394 $    315",
+        "metadata": {
+            "category_depth": 1,
+            "page_number": 1,
+            "parent_id": "c77da46c5e8c4e1f9760bf6ad170ce74",
+            "text_as_html": "<table class=\"Table\"><thead><tr><th></th><th colspan=\"3\">Three Months Ended</th><th colspan=\"2\">Six Months Ended</th></tr><tr><th></th><th>July 30, 2023</th><th>April 30, 2023</th><th>July 31, 2022</th><th>July 30, 2023</th><th>July 31, 2022</th></tr></thead><tbody><tr><td>Cost of revenue</td><td>$    31</td><td>$    27</td><td>$    38</td><td>$    58</td><td>$    76</td></tr><tr><td>Research and development</td><td>$    600</td><td>$    524</td><td>$    452</td><td>$    1,124</td><td>$    836</td></tr><tr><td>Sales, general and administrative</td><td>$    211</td><td>$    184</td><td>$    159</td><td>$    394</td><td>$    315</td></tr></tbody></table>",
+            "languages": [
+                "eng"
+            ],
+            "filetype": "text/html",
+            "partitioner_type": "vlm_partition"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "a1bdcec90d684c60a02c4c20fa87865a",
+        "text": "(C) Other consists of assets held for sale related adjustments. (D) Income tax impact of non-GAAP adjustments, including the recognition of excess tax benefits or deficiencies related to stock-based compensation under GAAP accounting standard (ASU 2016-09).",
+        "metadata": {
+            "category_depth": 1,
+            "page_number": 1,
+            "parent_id": "c77da46c5e8c4e1f9760bf6ad170ce74",
+            "text_as_html": "<p class=\"NarrativeText\">(C) Other consists of assets held for sale related adjustments.</p><p class=\"NarrativeText\">(D) Income tax impact of non-GAAP adjustments, including the recognition of excess tax benefits or deficiencies related to stock-based compensation under GAAP accounting standard (ASU 2016-09).</p>",
+            "languages": [
+                "eng"
+            ],
+            "filetype": "text/html",
+            "partitioner_type": "vlm_partition"
+        }
+    }
+]

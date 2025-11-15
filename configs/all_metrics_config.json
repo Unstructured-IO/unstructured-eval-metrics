@@ -1,0 +1,48 @@
+{
+  "storage": {
+      "store_metrics": false
+  },
+  "formats": {
+      "sample_formats": {
+          "cct": "v1",
+          "adjusted_cct": "v1",
+          "percent_tokens_found": "v1",
+          "percent_tokens_added": "v1",
+          "tables": "html",
+          "element_alignment": "v1",
+          "element_consistency": "v1"
+      },
+      "ground_truth_formats": {
+          "cct": "v1",
+          "adjusted_cct": "v1",
+          "percent_tokens_found": "v1",
+          "percent_tokens_added": "v1",
+          "tables": "text",
+          "element_alignment": "v1",
+          "element_consistency": "v1"
+      }
+  },
+  "datasets": [
+      {
+          "name": "simple-data",
+          "metrics": [
+              "cct",
+              "adjusted_cct",
+              "percent_tokens_found",
+              "percent_tokens_added",
+              "element_alignment",
+              "element_consistency"
+          ],
+          "to_evaluate_dir": "./simple-data/od-first-prediction",
+          "ground_truth_dir": "./simple-data/cct-gt"
+      },
+      {
+          "name": "simple-data",
+          "metrics": [
+              "tables"
+          ],
+          "to_evaluate_dir": "./simple-data/od-first-prediction",
+          "ground_truth_dir": "./simple-data/table-gt"
+      }
+  ]
+}

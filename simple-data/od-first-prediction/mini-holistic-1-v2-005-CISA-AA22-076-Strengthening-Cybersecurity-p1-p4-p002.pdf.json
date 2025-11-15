@@ -1,0 +1,145 @@
+[
+    {
+        "type": "UncategorizedText",
+        "element_id": "9423df3e54b441d3881bd1de0bb9ef89",
+        "text": "",
+        "metadata": {
+            "category_depth": 0,
+            "page_number": 1,
+            "text_as_html": "<div class=\"Page\" data-page-number=\"1\" />",
+            "languages": [
+                "eng"
+            ],
+            "filetype": "text/html",
+            "partitioner_type": "vlm_partition"
+        }
+    },
+    {
+        "type": "Header",
+        "element_id": "b0f3be945aa54648bf30fe39a07bcb4b",
+        "text": "JOINT CYBERSECURITY ADVISORY TLP:WHITE CISA | FBI",
+        "metadata": {
+            "category_depth": 1,
+            "page_number": 1,
+            "parent_id": "9423df3e54b441d3881bd1de0bb9ef89",
+            "text_as_html": "<header class=\"Header\"><h1 class=\"Title\">JOINT CYBERSECURITY ADVISORY</h1><span class=\"UncategorizedText\">TLP:WHITE</span><span class=\"UncategorizedText\">CISA | FBI</span></header>",
+            "languages": [
+                "eng"
+            ],
+            "filetype": "text/html",
+            "partitioner_type": "vlm_partition"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "b940f2b0535c4883a41760405d88bb0c",
+        "text": "MITIGATIONS",
+        "metadata": {
+            "category_depth": 1,
+            "page_number": 1,
+            "parent_id": "9423df3e54b441d3881bd1de0bb9ef89",
+            "text_as_html": "<h2 class=\"Subtitle\">MITIGATIONS</h2>",
+            "languages": [
+                "eng"
+            ],
+            "filetype": "text/html",
+            "partitioner_type": "vlm_partition"
+        }
+    },
+    {
+        "type": "NarrativeText",
+        "element_id": "b70a04c8cf444917aaf922c7cac8a500",
+        "text": "CISA and FBI strongly encourages critical infrastructure organizations and other organizations that are either SATCOM network providers or customers to review and implement the following mitigations:",
+        "metadata": {
+            "category_depth": 1,
+            "page_number": 1,
+            "parent_id": "9423df3e54b441d3881bd1de0bb9ef89",
+            "text_as_html": "<p class=\"NarrativeText\">CISA and FBI strongly encourages critical infrastructure organizations and other organizations that are either SATCOM network providers or customers to review and implement the following mitigations:</p>",
+            "languages": [
+                "eng"
+            ],
+            "filetype": "text/html",
+            "partitioner_type": "vlm_partition"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "7a97c73846e94d23bd340ad50b664d6a",
+        "text": "Mitigations for SATCOM Network Providers",
+        "metadata": {
+            "category_depth": 1,
+            "page_number": 1,
+            "parent_id": "9423df3e54b441d3881bd1de0bb9ef89",
+            "text_as_html": "<h3 class=\"Heading\">Mitigations for SATCOM Network Providers</h3>",
+            "languages": [
+                "eng"
+            ],
+            "filetype": "text/html",
+            "partitioner_type": "vlm_partition"
+        }
+    },
+    {
+        "type": "UncategorizedText",
+        "element_id": "1c35251dde0948c8a235403520536a47",
+        "text": "Put in place additional monitoring at ingress and egress points to SATCOM equipment to look for anomalous traffic, such as: The presence of insecure remote access tools\u2014such as Teletype Network Protocol (Telnet), File Transfer Protocol (FTP), Secure Shell Protocol (SSH), Secure Copy Protocol (SCP), and Virtual Network Computing (VNC)\u2014facilitating communications to and from SATCOM terminals. Network traffic from SATCOM networks to other unexpected network segments. Unauthorized use of local or backup accounts within SATCOM networks. Unexpected SATCOM terminal to SATCOM terminal traffic. Network traffic from the internet to closed group SATCOM networks. Brute force login attempts over SATCOM network segments. See the Office of the Director of National Intelligence (ODNI) Annual Threat Assessment of the U.S. Intelligence Community, February 2022 for specific state-sponsored cyber threat activity relating to SATCOM networks.",
+        "metadata": {
+            "category_depth": 1,
+            "page_number": 1,
+            "parent_id": "9423df3e54b441d3881bd1de0bb9ef89",
+            "text_as_html": "<ul class=\"UnorderedList\"><li class=\"ListItem\"><p class=\"Paragraph\">Put in place</p><span class=\"UncategorizedText\">additional monitoring at ingress and egress points</span><p class=\"Paragraph\">to SATCOM equipment to look for anomalous traffic, such as:</p><ul class=\"UnorderedList\"><li class=\"ListItem\">The presence of insecure remote access tools\u2014such as Teletype Network Protocol (Telnet), File Transfer Protocol (FTP), Secure Shell Protocol (SSH), Secure Copy Protocol (SCP), and Virtual Network Computing (VNC)\u2014facilitating communications to and from SATCOM terminals.</li><li class=\"ListItem\">Network traffic from SATCOM networks to other unexpected network segments.</li><li class=\"ListItem\">Unauthorized use of local or backup accounts within SATCOM networks.</li><li class=\"ListItem\">Unexpected SATCOM terminal to SATCOM terminal traffic.</li><li class=\"ListItem\">Network traffic from the internet to closed group SATCOM networks.</li><li class=\"ListItem\">Brute force login attempts over SATCOM network segments.</li></ul></li><li class=\"ListItem\"><p class=\"Paragraph\">See the Office of the Director of National Intelligence (ODNI)</p><a class=\"Hyperlink\">Annual Threat Assessment of the U.S. Intelligence Community, February 2022</a><p class=\"Paragraph\">for specific state-sponsored cyber threat activity relating to SATCOM networks.</p></li></ul>",
+            "languages": [
+                "eng"
+            ],
+            "filetype": "text/html",
+            "partitioner_type": "vlm_partition"
+        }
+    },
+    {
+        "type": "Title",
+        "element_id": "0c83f62eb9c642f984f7d4a7615955cb",
+        "text": "Mitigations for SATCOM Network Providers and Customers",
+        "metadata": {
+            "category_depth": 1,
+            "page_number": 1,
+            "parent_id": "9423df3e54b441d3881bd1de0bb9ef89",
+            "text_as_html": "<h3 class=\"Heading\">Mitigations for SATCOM Network Providers and Customers</h3>",
+            "languages": [
+                "eng"
+            ],
+            "filetype": "text/html",
+            "partitioner_type": "vlm_partition"
+        }
+    },
+    {
+        "type": "UncategorizedText",
+        "element_id": "cf1946d4a1ea46a9aaa9b82320b26834",
+        "text": "Use secure methods for authentication , including multifactor authentication where possible, for all accounts used to access, manage, and/or administer SATCOM networks. Use and enforce strong, complex passwords: Review password policies to ensure they align with the latest NIST guidelines . Do not use default credentials or weak passwords. Audit accounts and credentials: remove terminated or unnecessary accounts; change expired credentials. Enforce principle of least privilege through authorization policies. Minimize unnecessary privileges for identities. Consider privileges assigned to individual personnel accounts, as well as those assigned to non-personnel accounts (e.g., those assigned to software or systems). Account privileges should be clearly defined, narrowly scoped, and regularly audited against usage patterns. Review trust relationships. Review existing trust relationships with IT service providers. Threat actors are known to exploit trust relationships between providers and their customers to gain access to customer networks and data. Remove unnecessary trust relationships. Review contractual relationships with all service providers. Ensure contracts include appropriate provisions addressing security, such as those listed below, and that these provisions are appropriately leveraged: Security controls the customer deems appropriate.",
+        "metadata": {
+            "category_depth": 1,
+            "page_number": 1,
+            "parent_id": "9423df3e54b441d3881bd1de0bb9ef89",
+            "text_as_html": "<ul class=\"UnorderedList\"><li class=\"ListItem\"><span class=\"UncategorizedText\">Use secure methods for authentication</span><p class=\"Paragraph\">, including multifactor authentication where possible, for all accounts used to access, manage, and/or administer SATCOM networks.</p><ul class=\"UnorderedList\"><li class=\"ListItem\"><p class=\"Paragraph\">Use and enforce strong, complex passwords: Review password policies to ensure they align with the</p><a class=\"Hyperlink\">latest NIST guidelines</a><p class=\"Paragraph\">.</p></li><li class=\"ListItem\"><span class=\"UncategorizedText\">Do not use default credentials or weak passwords.</span></li><li class=\"ListItem\">Audit accounts and credentials: remove terminated or unnecessary accounts; change expired credentials.</li></ul></li><li class=\"ListItem\"><span class=\"UncategorizedText\">Enforce principle of least privilege through authorization policies.</span><p class=\"Paragraph\">Minimize unnecessary privileges for identities. Consider privileges assigned to individual personnel accounts, as well as those assigned to non-personnel accounts (e.g., those assigned to software or systems). Account privileges should be clearly defined, narrowly scoped, and regularly audited against usage patterns.</p></li><li class=\"ListItem\"><span class=\"UncategorizedText\">Review trust relationships.</span><p class=\"Paragraph\">Review existing trust relationships with IT service providers. Threat actors are known to exploit trust relationships between providers and their customers to gain access to customer networks and data.</p><ul class=\"UnorderedList\"><li class=\"ListItem\">Remove unnecessary trust relationships.</li><li class=\"ListItem\"><p class=\"Paragraph\">Review contractual relationships with all service providers. Ensure contracts include appropriate provisions addressing security, such as those listed below, and that these provisions are appropriately leveraged:</p><ul class=\"UnorderedList\"><li class=\"ListItem\">Security controls the customer deems appropriate.</li></ul></li></ul></li></ul>",
+            "languages": [
+                "eng"
+            ],
+            "filetype": "text/html",
+            "partitioner_type": "vlm_partition"
+        }
+    },
+    {
+        "type": "Footer",
+        "element_id": "42feeddd7db0492ca9f089a3d9edd8b5",
+        "text": "Page 2 of 4 | Product ID: AA22-076A TLP:WHITE",
+        "metadata": {
+            "category_depth": 1,
+            "page_number": 1,
+            "parent_id": "9423df3e54b441d3881bd1de0bb9ef89",
+            "text_as_html": "<footer class=\"Footer\"><span class=\"PageNumber\">Page 2 of 4 | Product ID: AA22-076A</span><span class=\"UncategorizedText\">TLP:WHITE</span></footer>",
+            "languages": [
+                "eng"
+            ],
+            "filetype": "text/html",
+            "partitioner_type": "vlm_partition"
+        }
+    }
+]
