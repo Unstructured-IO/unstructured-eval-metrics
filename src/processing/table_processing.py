@@ -3,12 +3,12 @@ import logging
 from types import MappingProxyType
 from typing import Any, Dict, List, Literal, Optional
 
-import distance
 import numpy as np
 import pandas as pd
 from apted import APTED, Config
 from apted.helpers import Tree
 from bs4 import BeautifulSoup
+from rapidfuzz.distance import Levenshtein
 
 from scoring.content_scoring import calculate_edit_distance
 
@@ -189,7 +189,9 @@ class TEDSCustomConfig(Config):
 
     def normalized_distance(self, *sequences):
         """Get distance from 0 to 1 using normalised levenshtein distance"""
-        return float(distance.levenshtein(*sequences)) / self.maximum(*sequences)
+        if len(sequences) != 2:
+            raise ValueError(f"Expected 2 sequences, got {len(sequences)}")
+        return float(Levenshtein.distance(*sequences)) / self.maximum(*sequences)
 
     def rename(self, node1, node2):
         """Compares attributes of trees and returns a distance score from 0 to 1"""
