@@ -68,6 +68,34 @@ def extract_content_from_file(
         return raw_data
 
 
+def remove_alt_text_from_image_text_field(data_list: List[dict]) -> None:
+    """
+    Extract alt text from text_as_html and remove the first occurrence from the text field
+    for image type dictionaries. Alt text includes non-OCR text that describes the image,
+    so it should not be included in text content extraction.
+
+    Args:
+        data_list: List of dictionaries to process
+
+    Returns:
+        List of dictionaries with first occurrence of alt text removed from text field
+    """
+    for item in data_list:
+        # Check if this is an image type
+        if item.get("type") == "Image":
+            # Check if we have both text and text_as_html
+            if "text" in item and "metadata" in item and "text_as_html" in item["metadata"]:
+                html = item["metadata"]["text_as_html"]
+
+                # Extract the alt text from the img tag
+                alt_match = re.search(r'alt="([^"]*)"', html)
+
+                if alt_match:
+                    alt_text = alt_match.group(1)
+                    # Remove only the first occurrence of the alt text
+                    item["text"] = item["text"].replace(alt_text, "", 1).strip()
+
+
 def extract_text(
     input_data: Union[str, List[dict]],
     input_format: InputFormat,
@@ -97,6 +125,7 @@ def extract_text(
                 "Invalid unstructured elements format:\
                 expected a list of unstructured elements."
             )
+        remove_alt_text_from_image_text_field(input_data)
         texts = []
         for element in input_data:
             if not isinstance(element, dict) or "text" not in element:
