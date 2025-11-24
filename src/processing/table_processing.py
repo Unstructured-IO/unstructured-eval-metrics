@@ -15,7 +15,8 @@ from scoring.content_scoring import calculate_edit_distance
 # Portions of this file are adapted from the TEDS implementation used in PubTabNet.
 # Source: https://github.com/ibm-aur-nlp/PubTabNet (TEDS code path referenced in original comments)
 # Original authors: IBM AUR NLP team (see upstream history)
-# Changes here include refactoring for API, typing, and integration into this project’s scoring pipeline.
+# Changes here include refactoring for API, typing, and integration into this project’s scoring
+# pipeline.
 # This file is part of a project licensed under Apache-2.0; see LICENSE for details.
 
 logger = logging.getLogger(__name__)
