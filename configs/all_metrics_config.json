@@ -34,7 +34,7 @@
               "element_consistency"
           ],
           "to_evaluate_dir": "./simple-data/od-first-prediction",
-          "ground_truth_dir": "./simple-data/cct-gt"
+          "ground_truth_dir": "./simple-data/content-gt"
       },
       {
           "name": "simple-data",
