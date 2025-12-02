@@ -40,7 +40,7 @@ unstructured-eval-metrics/
 ├── configs/                     # Configuration files for evaluation
 │   └── all_metrics_config.json  # Example configuration for all metrics
 ├── simple-data/                 # Example documents and ground truth
-│   ├── cct-gt/                  # Ground truth for text content evaluation
+│   ├── content-gt/              # Ground truth for text content evaluation
 │   ├── od-first-prediction/     # Example prediction outputs
 │   ├── src/                     # Example PDFs
 │   └── table-gt/                # Ground truth for table evaluation
@@ -63,7 +63,7 @@ documents and cannot be publicly distributed.
 To ensure transparency and reproducibility, we provide a few representative labeled examples in the `simple-data/` directory: 
 * The original PDF files can be found under `simple-data/src`.
 * The sample Unstructured outputs are located under `simple-data/od-first-prediction`.
-* Ground truth labels are under `simple-data/cct-gt` and `simple-data/table-gt`. 
+* Ground truth labels are under `simple-data/content-gt` and `simple-data/table-gt`. 
 
 You can use these examples to:
 * Understand the evaluation methodology and data formats used to calculate SCORE metrics.
@@ -77,7 +77,7 @@ domain.
 
 The repository uses the following types of ground truth data:
 
-1. **Text Content Ground Truth** (in `simple-data/cct-gt` directory):
+1. **Text Content Ground Truth** (in `simple-data/content-gt` directory):
    - Files use the format: `{original_filename}__uns-plaintext-v1.0.0__{id}.txt`
    - Content is structured with markers for different document elements, enabling evaluation against a clean concatenated text representation (CCT).
      ```
@@ -292,7 +292,7 @@ Evaluations are configured using JSON files:
               "element_consistency"
           ],
           "to_evaluate_dir": "./simple-data/od-first-prediction",
-          "ground_truth_dir": "./simple-data/cct-gt"
+          "ground_truth_dir": "./simple-data/content-gt"
       },
       {
           "name": "simple-data",
